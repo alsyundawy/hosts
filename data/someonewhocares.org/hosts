@@ -8,7 +8,7 @@
 # Please forward any additions, corrections or comments by email to
 # hosts@someonewhocares.org
 
-# Last updated: Mon, 18 Jun 2018 at 04:48:05 GMT
+# Last updated: Thu, 26 Jul 2018 at 00:52:10 GMT
 
 # Use this file to prevent your computer from connecting to selected
 # internet hosts. This is an easy and effective way to protect you from 
@@ -412,8 +412,10 @@ ff02::3		ip6-allhosts
 0.0.0.0 api.infinario.com
 0.0.0.0 api.intentiq.com
 0.0.0.0 api.murdoog.com
+0.0.0.0 api.redshell.io
 0.0.0.0 apis.murdoog.com
 0.0.0.0 api.tumra.com
+0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 apple.com-onlinesupport.host
 0.0.0.0 apprep.smartscreen.microsoft.com
 0.0.0.0 app.yesware.com
@@ -938,6 +940,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 in.paycounter.com
 0.0.0.0 insightfirst.com
 0.0.0.0 insightxe.looksmart.com
+0.0.0.0 in.treasuredata.com
 0.0.0.0 int.sitestat.com
 0.0.0.0 in.webcounter.cc
 0.0.0.0 ioit.iovation.com
@@ -1182,6 +1185,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 quicktrck.com
 0.0.0.0 raw.oggifinogi.com
 0.0.0.0 r.clickdensity.com
+0.0.0.0 redshell.io
 0.0.0.0 remotrk.com
 0.0.0.0 rightmedia.net
 0.0.0.0 rightstats.com
@@ -1248,6 +1252,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 s4.shinystat.com
 0.0.0.0 sact.atdmt.com
 0.0.0.0 sa.jumptap.com
+0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 s.clickability.com
 0.0.0.0 sclk.org
 0.0.0.0 scorecardresearch.com
@@ -1275,6 +1280,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 sdc.rbistats.com
 0.0.0.0 sdogiu.bestamazontips.com
 0.0.0.0 searchadv.com
+0.0.0.0 secure-gg.imrworldwide.com
 0.0.0.0 sekel.ch
 0.0.0.0 servedby.valuead.com
 0.0.0.0 server10.opentracker.net
@@ -1320,6 +1326,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 sm9.sitemeter.com
 0.0.0.0 smartstats.com
 0.0.0.0 smetrics.att.com
+0.0.0.0 smetrics.tesco.com
 0.0.0.0 snare.iesnare.com
 0.0.0.0 soap.iovation.com
 0.0.0.0 socialize.eu1.gigya.com
@@ -1769,6 +1776,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 trckaction.com
 0.0.0.0 trcko.com
 0.0.0.0 trc.taboolasyndication.com
+0.0.0.0 treasuredata.com
 0.0.0.0 trk.kissmetrics.com
 0.0.0.0 trkrpoint.com
 0.0.0.0 trk.tidaltv.com
@@ -1811,6 +1819,9 @@ ff02::3		ip6-allhosts
 0.0.0.0 us.cqcounter.com
 0.0.0.0 v1.nedstatbasic.net
 0.0.0.0 v7.stats.load.com
+0.0.0.0 v8.analytics.pinsightmedia.com
+0.0.0.0 v8engine.pinsightmedia.com
+0.0.0.0 v8push.pinsightmedia.com
 0.0.0.0 valueclick.com
 0.0.0.0 valueclick.net
 0.0.0.0 velocecdn.com
@@ -2185,6 +2196,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 comsss-56.com
 0.0.0.0 conduit.com
 0.0.0.0 connect.secure.ggj4m.wellsfarg0-onllne.net
+0.0.0.0 coolbotsearch4.info
 0.0.0.0 coordino.com
 0.0.0.0 cra-arc.gc.ca.bioder.com.tr
 0.0.0.0 cra-arc-gc-ca.noads.biz
@@ -2798,6 +2810,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.1tracksource.online
 0.0.0.0 www21.counsellor.gov.cn
 0.0.0.0 www4.gy7k.net
+0.0.0.0 www.a2uu36g43l.download
 0.0.0.0 www.abetterinternet.com
 0.0.0.0 www.activeindexer.com
 0.0.0.0 www.adshufffle.com
@@ -2835,6 +2848,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.faggotry.com
 0.0.0.0 www.feaecebook.com
 0.0.0.0 www.fictioncinema.com
+0.0.0.0 www.findalgorithm.com
 0.0.0.0 www.fischereszter.hu
 0.0.0.0 www.freecontent.bid
 0.0.0.0 www.freedailydownload.com
@@ -2916,6 +2930,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.thedatesafe.com			# Facebook trojan
 0.0.0.0 www.trucktirehotline.com
 0.0.0.0 www.tvshowslist.com
+0.0.0.0 www.upgradeexplorer.com
 0.0.0.0 www.upi6.pillsstore-c.com		# Facebook trojan
 0.0.0.0 www.uqz.com
 0.0.0.0 www.venturead.com
@@ -7019,6 +7034,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 BRApolice.com
 0.0.0.0 bravo.israelinfo.ru
 0.0.0.0 bravospots.com		
+0.0.0.0 b.recwwcc5.info
 0.0.0.0 brittlefilet.com
 0.0.0.0 br.naked.com
 0.0.0.0 broadcast.piximedia.fr
@@ -7119,6 +7135,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 cashback.co.uk
 0.0.0.0 cashbackwow.co.uk
 0.0.0.0 cashflowmarketing.com
+0.0.0.0 cashreportz.com
 0.0.0.0 casino770.com
 0.0.0.0 caslemedia.com
 0.0.0.0 casting.openv.com
@@ -7385,6 +7402,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 closeoutproductsreview.com
 0.0.0.0 cloudcrown.com
 0.0.0.0 c.l.qq.com
+0.0.0.0 clubwinnerz.com
 0.0.0.0 cluster3.adultadworld.com
 0.0.0.0 cluster.adultadworld.com
 0.0.0.0 cm1359.com
@@ -7543,6 +7561,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 c.ru.msn.com
 0.0.0.0 crux.songline.com
 0.0.0.0 crwdcntrl.net
+0.0.0.0 cryptolabpro.com
 0.0.0.0 cs.adxpansion.com
 0.0.0.0 c.se.msn.com
 0.0.0.0 cserver.mii.instacontent.net
@@ -7830,6 +7849,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 europe.adserver.yahoo.com
 0.0.0.0 eu-sonar.sociomantic.com
 0.0.0.0 eu.track.digitaladsystems.com
+0.0.0.0 euw.adserver.snapads.com
 0.0.0.0 eu.xtms.net
 0.0.0.0 eveley.club
 0.0.0.0 event-log.videe.tv
@@ -8479,6 +8499,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 ipdata.adtech.fr
 0.0.0.0 ipdata.adtech.us
 0.0.0.0 iphone-avril.offreflash.xyz
+0.0.0.0 ipm-provider.ff.avast.com
 0.0.0.0 iq001.adtech.de
 0.0.0.0 iq001.adtech.fr
 0.0.0.0 iq001.adtech.us
@@ -9003,6 +9024,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 msn.wrating.com
 0.0.0.0 ms.yandex.ru
 0.0.0.0 mt58.mtree.com
+0.0.0.0 m.tidebuy.com
 0.0.0.0 m.tribalfusion.com
 0.0.0.0 mttwtrack.com
 0.0.0.0 mtvbrazil-services.vimn.com
@@ -9514,6 +9536,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 preligions.com
 0.0.0.0 premium.ascensionweb.com
 0.0.0.0 premiumholidayoffers.com
+0.0.0.0 premium-offers.space
 0.0.0.0 premiumproductsonline.com
 0.0.0.0 premium-reward-club.com
 0.0.0.0 prestoris.com
@@ -10460,8 +10483,8 @@ ff02::3		ip6-allhosts
 0.0.0.0 this.content.served.by.adshuffle.com
 0.0.0.0 thoughtfully-free.com
 0.0.0.0 thruport.com
+0.0.0.0 tidebuy.com
 0.0.0.0 timelywebsitehostesses.com
-0.0.0.0 tiqcdn.com
 0.0.0.0 titan-gel-extra.com
 0.0.0.0 tk.baidu.com
 0.0.0.0 tkweb.baidu.com
@@ -10607,6 +10630,8 @@ ff02::3		ip6-allhosts
 0.0.0.0 turn.com
 0.0.0.0 turnerapac.d1.sc.omtrdc.net
 0.0.0.0 tv2no.linkpulse.com
+0.0.0.0 tvn.adocean.pl
+0.0.0.0 tvn.hit.gemius.pl
 0.0.0.0 tvshowsnow.tvmax.hop.clickbank.net
 0.0.0.0 tw.adserver.yahoo.com
 0.0.0.0 twnads.weather.ca # Canadian Weather Network
@@ -10671,6 +10696,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 usatoday.app.ur.gcion.com
 0.0.0.0 usatravel-specials.com
 0.0.0.0 usatravel-specials.net
+0.0.0.0 usc.adserver.snapads.com
 0.0.0.0 us-choicevalue.com
 0.0.0.0 usd.sierra-boa.com
 0.0.0.0 usemax.de
@@ -11253,6 +11279,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.boonsolutions.com
 0.0.0.0 www.bostonsubwayoffer.com
 0.0.0.0 www.bostonwall.com
+0.0.0.0 www.bovadapromotions.lv
 0.0.0.0 www.brandrewardcentral.com
 0.0.0.0 www.brandsurveypanel.com
 0.0.0.0 www.brightonclick.com
@@ -11977,6 +12004,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 www.youripad4free.com
 0.0.0.0 www.yourrewardzone.com
 0.0.0.0 www.yoursmartrewards.com
+0.0.0.0 www.zabavazaodrasle.com
 0.0.0.0 www.zbippirad.info
 0.0.0.0 www.zemgo.com
 0.0.0.0 www.zevents.com
@@ -12054,6 +12082,7 @@ ff02::3		ip6-allhosts
 0.0.0.0 yx-in-f108.1e100.net
 0.0.0.0 z1.adserver.com
 0.0.0.0 za1.sierra-fox.com
+0.0.0.0 zabavazaodrasle.com
 0.0.0.0 z.admob.com
 0.0.0.0 zads.zedo.com
 0.0.0.0 zapadserver1.com

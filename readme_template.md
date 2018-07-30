@@ -1,3 +1,10 @@
+----
+**Take Note!**  We are in the process of [dropping support for Python 2.7](https://github.com/StevenBlack/hosts/issues/729).
+
+Soon, to self-generate hosts files, you'll need to use Python 3.
+
+----
+
 ![readme](https://user-images.githubusercontent.com/36028424/40330477-9df2c2e0-5d7f-11e8-8ac8-511d719a5eae.png)
 
 [![latest release](https://img.shields.io/github/release/StevenBlack/hosts.svg)](https://github.com/StevenBlack/hosts/releases)
@@ -47,7 +54,7 @@ Host file source | Description | Home page | Raw hosts | Update frequency | Lice
 ## Extensions
 The unified hosts file is extensible.  Extensions are used to block domains by category.  
 
-Extensions are optional, and are added to the base hosts file.  Extensions are combined in variuous ways wth the default hosts file, and the combined products are stored in the [`alternates`](https://github.com/StevenBlack/hosts/tree/master/alternates) folder.
+Extensions are optional, and are added to the base hosts file.  Extensions are combined in various ways wth the default hosts file, and the combined products are stored in the [`alternates`](https://github.com/StevenBlack/hosts/tree/master/alternates) folder.
 
 For example, you may want to block porn domains in addition to the adware and malware we block by default.  That hosts file is stored in the porn subfolder of the [`alternates`](https://github.com/StevenBlack/hosts/tree/master/alternates) folder.  
 
@@ -194,7 +201,7 @@ Then, submit a pull request.
 
 ### Option 3: create your own hosts list as a repo on Github
 
-If you're able to curate your own collection of sketchy domains, then curate your own hosts list.  Then signal the existance of your remo as [a new issue](https://github.com/StevenBlack/hosts/issues) and we may include your new repo into the collection of sources we pull whenever we create new versions.
+If you're able to curate your own collection of sketchy domains, then curate your own hosts list.  Then signal the existance of your repo as [a new issue](https://github.com/StevenBlack/hosts/issues) and we may include your new repo into the collection of sources we pull whenever we create new versions.
 
 
 ## What is a hosts file?
@@ -239,9 +246,9 @@ We tried that.  Using `0` doesn't work universally.
 To modify your current `hosts` file, look for it in the following places and modify it with a text
 editor.
 
-**Mac OS X, iOS, Android, Linux**: `/etc/hosts` folder.
+**Mac OS X, iOS, Android, Linux**: `/etc/hosts` file.
 
-**Windows**: `%SystemRoot%\system32\drivers\etc\hosts` folder.
+**Windows**: `%SystemRoot%\system32\drivers\etc\hosts` file.
 
 ## Updating hosts file on Windows
 

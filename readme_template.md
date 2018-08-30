@@ -309,7 +309,7 @@ sc stop "Dnscache"
 
 Open a Terminal and run with root privileges:
 
-**Debian/Ubuntu** `sudo /etc/rc.d/init.d/nscd restart`
+**Debian/Ubuntu** `sudo service network-manager restart`
 
 **Linux Mint** `sudo /etc/init.d/dns-clean start`
 
@@ -322,6 +322,21 @@ Open a Terminal and run with root privileges:
 **Arch Linux/Manjaro with Wicd**: `sudo systemctl restart wicd.service`
 
 **RHEL/Centos**: `sudo /etc/init.d/network restart`
+
+**FreeBSD**: `sudo service nscd restart`
+
+To enable the `nscd` daemon initially, it is recommended that you run the following commands:
+
+```
+sudo sysrc nscd_enable="YES"
+sudo service nscd start
+```
+
+Then modify the `hosts` line in your `/etc/nsswitch.conf` file to the following:
+
+```
+hosts: cache files dns
+```
 
 **Others**: Consult [this wikipedia article](https://en.wikipedia.org/wiki/Hosts_%28file%29#Location_in_the_file_system).
 

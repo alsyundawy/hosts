@@ -1,6 +1,8 @@
 {
   "src": {
-    "tagName": "v%s"
+    "tagName": "v%s",
+    "commitArgs": "-S",
+    "tagArgs": "-S"
   },
   "github": {
     "release": true

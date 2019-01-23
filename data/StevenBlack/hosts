@@ -5,6 +5,7 @@
 0.0.0.0 30-day-change.com
 0.0.0.0 2468.go2cloud.org
 0.0.0.0 adservice.google.nl
+0.0.0.0 analytics.ff.avast.com
 0.0.0.0 adsmws.cloudapp.net
 0.0.0.0 androidads23.adcolony.com
 0.0.0.0 analytics.publitas.com
@@ -83,7 +84,6 @@
 0.0.0.0 www.urldelivery.com
 0.0.0.0 files.ctnet4.space
 0.0.0.0 apps3.cointraffic.io
-0.0.0.0 cfvod.kaltura.com
 0.0.0.0 metrics.brightcove.com
 0.0.0.0 ping.chartbeat.net
 0.0.0.0 www.tvpassport.com
@@ -91,7 +91,6 @@
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 postmediamontrealgazette2.files.wordpress.com
 0.0.0.0 ping.chartbeat.net
-0.0.0.0 cdnapi.kaltura.com
 0.0.0.0 tvmds.tvpassport.com
 0.0.0.0 stats.wp.com
 0.0.0.0 4436230.fls.doubleclick.net
@@ -110,6 +109,13 @@
 0.0.0.0 videoplayer.vice.technology
 0.0.0.0 bacr.com.pk
 0.0.0.0 pakistanelevators.pk
+0.0.0.0 www.bidgear.com
+0.0.0.0 bidgear.com
+0.0.0.0 platform.bidgear.com
+0.0.0.0 stats.bidgear.com
+0.0.0.0 track.adtrue.com
+0.0.0.0 media.complex.com
+0.0.0.0 api.b2c.com
 
 # Analytics
 0.0.0.0 analysis.polarisoffice.com
@@ -194,6 +200,7 @@
 0.0.0.0 www.api.alphonso.tv
 0.0.0.0 assets.alphonso.tv
 0.0.0.0 bale.alphonso.tv
+0.0.0.0 beacon.statful.com
 0.0.0.0 bebe.alphonso.tv
 0.0.0.0 beckham.alphonso.tv
 0.0.0.0 best.alphonso.tv
@@ -259,8 +266,6 @@
 0.0.0.0 smetrics.bestbuy.com
 0.0.0.0 srv.pixel.parsely.com
 0.0.0.0 sdkupgrade.insight.ucweb.com
-0.0.0.0 vrl.m.conviva.com
-0.0.0.0 zee.cws.conviva.com
 0.0.0.0 uop.umeng.com
 0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 api.cloudmobi.net
@@ -378,7 +383,6 @@
 0.0.0.0 metrics.adage.com
 0.0.0.0 ads.feedly.com
 0.0.0.0 bi-collector.oneapm.com
-0.0.0.0 lepodownload.mediatek.com
 0.0.0.0 pixel.realclever.com
 0.0.0.0 sdktm.w.inmobi.com
 0.0.0.0 matchmyip.com
@@ -626,6 +630,9 @@
 0.0.0.0 www.camsoda.com
 0.0.0.0 msmetrics.ws.sonos.com
 0.0.0.0 betpromo247.com
+0.0.0.0 fp-analytics.hotstar.com
+0.0.0.0 hb-analytics.hotstar.com
+
 
 # Block ads on Voot streaming app @anudeepND
 0.0.0.0 in-viacom18.videoplaza.tv
@@ -666,6 +673,8 @@
 0.0.0.0 v10.vortex-win.data.microsoft.com
 # Connected User Experience and Diagnostic component endpoint for operating systems older than Windows 10
 0.0.0.0 vortex-win.data.microsoft.com
+# Connected User Experience and Diagnostic component endpoint for use with Windows versions that have KB4458469 installed (Windows 10 1803 with the september 2018 update and higher)
+0.0.0.0 v10c.events.data.microsoft.com
 
 # Office 2016 'Connected User Experience' Telemetry
 # OneNote Telemetry Service
@@ -676,6 +685,8 @@
 0.0.0.0 nexusrules.officeapps.live.com
 # Telemetry and Reporting Service for Office apps
 0.0.0.0 telemetry.firstpartyapps.oaspapps.com
+# Telemetry Reporting
+0.0.0.0 browser.pipe.aria.microsoft.com
 
 # Spam domains
 # If your software is able, the below domains and all subdomains should be blocked
@@ -685,10 +696,11 @@
 #*.weconfirmyou.com
 0.0.0.0 cws.conviva.com
 #*.cws.conviva.com
+0.0.0.0 vrl.m.conviva.com
+0.0.0.0 zee.cws.conviva.com
 
 # These stink-up yahoo finance
 0.0.0.0 beap-bc.yahoo.com
-0.0.0.0 secure.footprint.net
 0.0.0.0 token.rubiconproject.com
 0.0.0.0 fc.yahoo.com
 0.0.0.0 pr-bh.ybp.yahoo.com
@@ -935,9 +947,28 @@
 0.0.0.0 best2017games.com
 0.0.0.0 www.bet365.com
 
+# Massive logout sites
+0.0.0.0 theannoyingsite.com
+0.0.0.0 superlogout.github.io
+
 # Other
 0.0.0.0 api.userstyles.org
 0.0.0.0 hrtya.com
 0.0.0.0 greatmacsoft.tech
+0.0.0.0 adscan.yelabapp.com
+0.0.0.0 myfreecams.com
+0.0.0.0 www.myfreecams.com
+0.0.0.0 icloud.com-locations.in
+0.0.0.0 cradver.livejasmin.com
+0.0.0.0 freeadult.games
+0.0.0.0 goooooooooogle.com
+
+# See Issue #844 – Windows telemetry servers – https://github.com/StevenBlack/hosts/issues/844
+alpha.telemetry.microsft.com
+eu.vortex-win.data.microsft.com
+oca.telemetry.microsft.com
+us.vortex-win.data.microsft.com
+v10-win.vortex.data.microsft.com.akadns.net
+v10.vortex-win.data.microsft.com
 
 #=====================================
